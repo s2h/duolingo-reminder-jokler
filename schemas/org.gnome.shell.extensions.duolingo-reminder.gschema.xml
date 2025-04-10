@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.duolingo-reminder" path="/org/gnome/shell/extensions/duolingo-reminder/">
+    <key name="last-completed" type="s">
+      <default>''</default>
+      <summary>Last completed date</summary>
+      <description>ISO string of the last time the task was marked as completed</description>
+    </key>
+  </schema>
+</schemalist> 

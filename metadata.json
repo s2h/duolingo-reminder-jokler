@@ -1,0 +1,8 @@
+{
+  "uuid": "duolingo-reminder@jokler",
+  "name": "Duolingo Reminder",
+  "description": "Напоминание о прохождении уроков в Duolingo",
+  "shell-version": ["48"],
+  "version": 1,
+  "settings-schema": "org.gnome.shell.extensions.duolingo-reminder"
+}
