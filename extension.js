@@ -53,7 +53,10 @@ const DuolingoReminder = GObject.registerClass(
 
             this.menu.addMenuItem(menuItem);
 
-            this._updateVisibility();
+            GLib.timeout_add(GLib.PRIORITY_DEFAULT, 100, () => {
+                this._updateVisibility();
+                return GLib.SOURCE_REMOVE;
+            });
             this._startTimer();
         }
 
